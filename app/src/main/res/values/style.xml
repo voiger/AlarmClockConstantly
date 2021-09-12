@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonStyle" parent="TextAppearance.AppCompat.Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">#2C2B2E</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ButtonStyleBottom" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">#2C2B2E</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+
+        <item name="android:background">@drawable/button_background_sheet</item>
+        <item name="android:gravity">center</item>
+        <item name="android:colorBackground">@drawable/button_background_sheet</item>
+        <item name="backgroundTint">@color/whiteA50</item>
+        <item name="android:buttonTintMode">@drawable/button_background_sheet</item>
+    </style>
+</resources>
